@@ -12,8 +12,6 @@ def files_organiser(source, destination):
 # move the folder to destination folder
        shutil.move(file_path, destination_folder)
        
-source = source
-destionation = destination     
-   
+
 files_organiser(source, destination)
         
